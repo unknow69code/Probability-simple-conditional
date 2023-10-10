@@ -9,30 +9,31 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <!-- Enlace a Font Awesome CSS -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="./../img/favicon.png">
-  <link rel="stylesheet" href="./../style.css">
+  <link rel="icon" href="./src/img/fondo1.jpg" type="image/x-icon">
 </head>
 
 <body>
   <!-- Barra de navegacion -->
   <nav class="navbar navbar-expand-lg bg-white border border-[#0f172a1a]">
-    <div class="mx-4">
-      <i class="fa fa-solid fa-chart-line fa-2x" style="margin-right: 8px;"></i>
-      <a class="navbar-brand fw-bold" href="#"><em>Calculador de Probabilidad simple y condicional</em></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+    <div class="container">
+      <div class="col-md-4 col-12">
+        <i class="fa fa-solid fa-chart-line fa-2x" style="margin-right: 8px;"></i>
+        <a class="navbar-brand fw-bold" href="#"><em>Calculadora de Probabilidad</em></a>
+        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
-      <!-- Contenido de la Barra de Navegación -->
+      </button> -->
+        <!-- Contenido de la Barra de Navegación -->
+      </div>
     </div>
   </nav>
 
   <div class="container">
-    <div class="col-md-6 mt-md-4">
+    <div class="col-md-6 mt-md-4 md-2 mt-4">
       <h2><em>Formulario para calcular la Probabilidad Simple</em></h2>
     </div>
-    <div class="row my-5">
-      <div class="col-md-4">
+    <div class="row my-3">
+      <div class="col-md-4 mb-2">
         <div class="card">
           <div class="card-body">
             <h3>Probabilidad Simple</h3>
@@ -52,7 +53,7 @@
         </div>
       </div>
       <!--Imprime la carta donde se muestra la Probabilidad-->
-      <div class="col-md-4">
+      <div class="col-md-6 col-12">
         <div id="print"></div>
       </div>
     </div>
@@ -60,11 +61,11 @@
 
 
   <div class="container">
-    <div class="col-md-6 mt-md-4">
+    <div class="col-md-6 col-12 mt-md-4">
       <h2><em>Formulario para calcular la Probabilidad Condicional</em> </h2>
     </div>
-    <div class="row my-5">
-      <div class="col-md-4">
+    <div class="row my-3">
+      <div class="col-md-4 mb-2">
         <div class="card">
           <div class="card-body">
             <h3>Probabilidad Condicional</h3>
@@ -83,7 +84,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-6 col-12">
         <div id="print-condicional"></div>
       </div>
     </div>

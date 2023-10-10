@@ -22,7 +22,8 @@ function Calcularsimple(e) {
     const verprobability = document.getElementById("print");
     verprobability.innerHTML = " ";
     verprobability.innerHTML += `<div class="row">
-        <div class="card mb-2">
+        <div class="col-md-8 col-12">
+        <div class="card">
         <div class="card-body">
         <h4><em>Probabilidad Simple<em></h4>
         <p>Probabilidad-A: ${probabilidadA} <br>
@@ -34,7 +35,7 @@ function Calcularsimple(e) {
         <a class ="btn btn-success"></a>
         <a class ="btn btn-warning"></a>
         <a class ="btn btn-info"></a>
-        </div></div></div>`;
+        </div></div></div></div>`;
     e.preventDefault();
 }
 
@@ -64,7 +65,8 @@ function CalcularCondicional(e) {
     const verprobability = document.getElementById("print-condicional");
     verprobability.innerHTML = " ";
     verprobability.innerHTML += `<div class="row">
-        <div class="card mb-2">
+        <div class="col-md-8 col-12">
+        <div class="card">
         <div class="card-body">
         <h4><em>Probabilidad Condicional<em></h4>
         <p>Probabilidad-A: ${ProbabilidadA} 
@@ -80,6 +82,6 @@ function CalcularCondicional(e) {
         <a class ="btn btn-success"></a>
         <a class ="btn btn-warning"></a>
         <a class ="btn btn-info"></a>
-        </div></div></div>`;
+        </div></div></div></div>`;
     e.preventDefault();
 }
